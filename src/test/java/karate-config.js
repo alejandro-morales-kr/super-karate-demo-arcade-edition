@@ -6,7 +6,8 @@ function fn() {
   }
   var config = {
     env: env,
-    myVarName: 'someValue'
+    baseUrl: 'https://jsonplaceholder.typicode.com',
+    usersPath: '/users'
   }
   if (env == 'dev') {
     // customize
